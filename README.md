@@ -5,4 +5,4 @@ access_tokken = 'your token' зарегестируйтесь на сайте
 ipgeo и вставьте ваш токен
 
 Запуск:
-python ipgeo.py <<ip addr>>
+python ipgeo.py <<ip addr**>>
