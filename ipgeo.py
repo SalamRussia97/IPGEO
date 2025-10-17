@@ -6,9 +6,10 @@ try:
 except IndexError:
     ip_address = None
 
-access_tokken = '262f52fee53ded'
+access_tokken = 'your token'
 
 handler = ipinfo.getHandler(access_tokken)
 details = handler.getDetails(ip_address)
 for key, value in details.all.items():
+
     print(f"{key}: {value}")
